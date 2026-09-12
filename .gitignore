@@ -1,0 +1,28 @@
+# This repository is App-only. Keep personal workspaces outside the checkout.
+/*
+!/.gitignore
+!/README.md
+!/app/
+!/examples/
+
+node_modules/
+out/
+release/
+coverage/
+test-results/
+playwright-report/
+.playwright-cli/
+output/
+*.tsbuildinfo
+*.log
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.obsidian/
+
+# Prevent learning records from being accidentally added inside the App repo.
+data/
+examples/empty-workspace/00-dashboard/weeks/week-*.md
